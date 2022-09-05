@@ -1,7 +1,6 @@
 import { all, takeEvery, put } from 'redux-saga/effects';
 import {
   getExamList,
-  getexam,
   getExamListSuccess,
   getExamListFailed,
 } from '@reduxSlices/topPageSlice';

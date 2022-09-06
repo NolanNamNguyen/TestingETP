@@ -22,8 +22,12 @@ const SelectExam = ({ examList, handleGetExamList, loadingContent }) => {
                 <div className="rounded-[30px]">
                   <img className="w-full" alt="exam image" src={exam.examImg} />
                 </div>
-                <h2 className="flex justify-center my-2">{exam.examTitle}</h2>
-                <p className="min-h-[80px]">{exam.examContent}</p>
+                <h2 className="flex justify-center mt-[16px] mb-[10px] leading-[33.6px]">
+                  {exam.examTitle}
+                </h2>
+                <p className="min-h-[80px] font-[14px] m-0 leading-[25.2px]">
+                  {exam.examContent}
+                </p>
                 <div className="flex justify-end">
                   <Button className="flex items-center" variant="outlined">
                     <p className="m-0 translate-y-[1.2px]">詳細を見る</p>
